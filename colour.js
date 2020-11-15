@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
         const pixels = window.scrollX
         //const end = document.documentElement.scrollWidth
-        const end = window.scrollWidth
+        const end = window.clientWidth
         const remaining = end - window.innerWidth
 
         const percentage = (pixels / remaining) * 100
