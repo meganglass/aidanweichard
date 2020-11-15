@@ -1,8 +1,6 @@
 console.log("script start")
 
-//const signature = document.querySelector(".signature_item")
 const selectionItems = document.querySelectorAll(".selection_item")
-
 
 window.addEventListener('DOMContentLoaded', function() {
   
