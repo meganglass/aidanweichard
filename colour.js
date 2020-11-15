@@ -1,3 +1,5 @@
+const signature = document.querySelector(".signature")
+
 window.addEventListener('DOMContentLoaded', function() {
     console.log("loaded")
       window.addEventListener("scroll", function () {
