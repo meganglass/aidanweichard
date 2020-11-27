@@ -33,9 +33,11 @@ $(function() {
     // binds tween reference to scene
     .setTween(colourTween)
     // debugging
+    /*  
     .addIndicators({
       name:"colour"
     })
+    */
     // adding scene to existing controller
     .addTo(colourController);
 
