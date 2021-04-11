@@ -1,0 +1,32 @@
+blob svg {
+  width: 30vmin;
+  height: 30vmin;
+}
+
+.blob-wrapper {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 100;
+
+  transform: scale(0) translate(-50%,-50%);
+  pointer-events: none;
+  cursor: none;
+}
+
+.blob-wrapper h5 {
+  position: absolute;
+  top: 35%;
+}
+
+#blobPath {
+  fill: black;
+  transition: 0.3s;
+}
+
+.frame, .shadow, .selection_item img {
+  pointer-events: none;
+  cursor: none;
+}
